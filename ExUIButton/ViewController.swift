@@ -28,10 +28,6 @@ class ViewController: UIViewController {
         button.imageEdgeInsets = .init(top: 0, left: -halfIntervalSpacing, bottom: 0, right: halfIntervalSpacing)
         button.titleEdgeInsets = .init(top: 0, left: halfIntervalSpacing, bottom: 0, right: -halfIntervalSpacing)
         
-        
-        
-        button.contentEdgeInsets = .init(top: 0, left: 100, bottom: 0, right: 0)
-        
         button.backgroundColor = .lightGray.withAlphaComponent(0.3)
         button.translatesAutoresizingMaskIntoConstraints = false
         return button
